@@ -1,0 +1,14 @@
+10-14-2005
+	Fixed song@time variable
+	proper date fromat for songplayedat
+
+
+
+05-05-2005
+	HOLY CATFISH MARTHA, its an update
+	patched the xml view page login procedure, with base64 encodiing, 
+	login can no longer be sent via a query string munge.
+
+
+05-03-2002 
+	Initial checkin, I was born on this date.

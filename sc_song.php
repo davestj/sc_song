@@ -1,19 +1,22 @@
 <?php
-/*
-// Author: dstjohn (Mediacast1/Casterclub)
-// Date started: 05-03-2002 (10:00A.M)
-// Date Ended: 05-03-2002 (6:03 P.M)
-// Requirements:
-// 1.SHOUTcast streaming server
-// 2.Oddcast dsp with winamp/xmms (recomended setup)
-// 3.Webserver with php 4.x (Recommended environment: Unix (Freebsd, Red Hat etc.. with Apache 3.x)
-// Support: None, post in the casterclub forums
-// Core script Information:
-// SHOUTcast Song Status was written and developed on Windows Xp with apache and php4.1.2
-// Has not been tested on IIs webservers, if you do so and get it to work please let us know
-// At the forums (http://casterclub.com/forums)
-// Also has been tested on freebsd with apache, php4.1.2 and works fine.
+
+/**
+
+@Author: dstjohn (Mediacast1/Casterclub)
+@Date started: 05-03-2002 (10:00A.M)
+@Date Ended: 05-03-2002 (6:03 P.M)
+@Requirements:
+1.SHOUTcast streaming server
+2.Oddcast dsp with winamp/xmms (recomended setup)
+3.Webserver with php 4.x (Recommended environment: Unix (Freebsd, Red Hat etc.. with Apache 3.x)
+@Support: None, post in the casterclub forums
+@Core script Information:
+SHOUTcast Song Status was written and developed on Windows Xp with apache and php4.1.2
+Has not been tested on IIs webservers, if you do so and get it to work please let us know
+At the forums (http://casterclub.com/forums)
+Also has been tested on freebsd with apache, php4.1.2 and works fine.
 */
+
 //connect to shoutcast server
 include('./config.php');  //you may edit this path to fit your server environment otherwise leave it alone
 $scfp = fsockopen("$scip", $scport, &$errno, &$errstr, 30);

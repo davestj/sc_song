@@ -5,6 +5,7 @@
 @Author: dstjohn (Mediacast1/Casterclub)
 @Date started: 05-03-2002 (10:00A.M)
 @Date Ended: 05-03-2002 (6:03 P.M)
+@Date Updated: 05-03-2002 (6:06 P.M) Almost forgot, nothing like a 20 year pull request in the making.
 @Requirements:
 1.SHOUTcast streaming server
 2.Oddcast dsp with winamp/xmms (recomended setup)
